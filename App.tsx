@@ -1,13 +1,12 @@
+import BookmarkSVG from 'assets/bookmark';
 import { AppLoading } from 'expo';
 import { useFonts } from 'expo-font';
+import ErrorHandler from 'global/ErrorHandler/ErrorHandler';
+import { coreTheme } from 'global/Theme/coreTheme';
 import { Container } from 'native-base';
+import Home from 'pages/Home/Home';
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-
-import BookmarkSVG from './src/assets/bookmark';
-import ErrorHandler from './src/global/ErrorHandler/ErrorHandler';
-import { coreTheme } from './src/global/Theme/coreTheme';
-import Home from './src/pages/Home/Home';
 
 export default function App(): JSX.Element {
   // native-base is using this font as default. We have to load it, otherwise app will show error.
