@@ -1,5 +1,5 @@
 import BookmarkSVG from 'assets/bookmark';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font';
 import ErrorHandler from 'global/ErrorHandler/ErrorHandler';
 import { coreTheme } from 'global/Theme/coreTheme';
